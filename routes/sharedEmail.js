@@ -8,7 +8,6 @@ const {
   sharedContactOwner,
   sharedContactUs,
 } = require("../controllers/sharedEmail");
-const isAuth = require("../middleware/is-auth");
 
 const router = express.Router();
 

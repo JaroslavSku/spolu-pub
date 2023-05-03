@@ -3,12 +3,8 @@ const jwt = require("jsonwebtoken");
 const path = require("path");
 const axios = require("axios");
 const fs = require("fs");
-const Email = require("../models/email");
 const Uploader = require("../utils/multer");
-const mongoose = require("mongoose");
 const { includes, filter } = require("lodash");
-const compressImages = require("../utils/compressImages");
-const processImages = require("../utils/processImages");
 const SharedEmail = require("../models/sharedEmail");
 const SharedUser = require("../models/sharedUser");
 
