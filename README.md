@@ -12,11 +12,11 @@ $ npm install
 
 ## Running the app
 
-You need to create an .env file with all variables used in this app. Coming soon with postman collections...
+You need to create an .env file with all variables used in this app. Coming soon with a postman collections...
 
 ```bash
-# watch mode or dev mode
-$ npm run start
+# dev or production
+$ npm start
 ```
 
 ## Support
