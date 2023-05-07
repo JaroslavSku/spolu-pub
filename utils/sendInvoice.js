@@ -20,14 +20,12 @@ async function sendInvoice(
       address: address,
       products: products,
     };
-    console.log("pdfdata", pdfPath, originalname);
-    console.log("1");
+
     const file = {
       originalname: originalname,
       path: pdfPath,
     };
     await createInvoice(file, invoiceData);
-    console.log("2");
 
     const html = "Tímto Vám zasíláme Vaši fakturu od www.najemnikvpohode.cz";
     const subject = "Vaše faktura";
